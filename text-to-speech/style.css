@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin-top: 1rem;
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #090979 5%, #00d4ff 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #090979 15%, #00d4ff 100%);
 }
 
 .container {
@@ -21,14 +21,14 @@ body {
 }
 
 p a {
-  color: #090979;
-  text-decoration-color: white;
+  color: #fff;
+  text-decoration-color: #090979;
   text-underline-offset: 5px;
   transition: 3s ease-in-out;
 }
 
 p a:hover {
-  color: #3a3a84;
+  text-decoration-color: #fff !important;
   text-underline-offset: 7px;
 }
 
