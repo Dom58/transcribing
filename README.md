@@ -32,3 +32,10 @@ These are the funtions or API you have to use and workin on it to improve the pr
 - Learning English accents
 - Reading writen testmonials
 
+
+## 2. Converting speech to text
+#### How to run the project
+This project is free and open source, accessing this project go to``speech-to-text`` folder and open ``index.html`` by double clicking on it, wait your default browser to be opened.
+
+
+=> Waiting for the updates ....
