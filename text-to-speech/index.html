@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Speech Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>Text to Speech converter</h1>
-    <textarea id="text" placeholder="Paste Your Text Here..."></textarea>
-    <label for="speed">Speed</label>
-    <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
-    <button id="play-button">Play</button>
-    <button id="pause-button">Pause</button>
-    <button id="stop-button">Stop</button>
+    <div class="container">
+        <img class="text-logo" src="https://miro.medium.com/max/700/1*yDgVdq8--I5pUyGodlzswg.jpeg" />
+        <h1>
+            <span>Text to Speech converter</span>
+        </h1>
+        <textarea id="text" placeholder="Paste your text message here..."></textarea>
+        
+        <div class="contents">
+            <div class="speed">
+                <label for="speed">Reading Speed </label>
+                <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
+            </div>
+
+            <div class="buttons">
+                <button id="play-button">
+                    <i class="fa fa-play"></i> Play
+                </button>
+                <button id="pause-button">
+                    <i class="fa fa-pause"></i> Pause
+                </button>
+                <button id="stop-button">
+                    <i class="fa fa-stop"></i> Stop
+                </button>
+            </div>
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>
